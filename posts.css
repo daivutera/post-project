@@ -1,0 +1,108 @@
+*{
+    font-family: Calibri;
+}
+body{
+    background-color: rgba(248, 244, 228, 0.5);
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 16px;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.1em;
+}
+.wrappers{
+    max-width: 27%;
+    box-shadow: 5px 5px rgb(182, 172, 172,0.3);
+    border: rgba(124, 123, 112, 0.3) 1px solid;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    
+}
+.wrappers:hover{
+    background-color: rgb(252, 221, 182);
+}
+.forWrappers{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.7rem;
+    row-gap: 1rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+p{
+    font-size: 14px;
+}
+h3.email{
+    font-size: 13px;
+    color: grey;
+}
+header{
+    height: 7rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(248, 237, 237, 0.7);
+    border-bottom: lightslategrey solid 2px;
+}
+header p{
+    font-size: 40px;
+    font-family: Cambria;
+    font-weight: 800;
+    padding-top: 1.5rem;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9qzTQkbsIdUxt9XsCU8W-dYcwmrTZIj-bg&usqp=CAU");
+    height: 4rem;
+    text-align: center;
+}
+footer p{
+    padding-top: 0.5rem;
+}
+h4{
+    font-size: 11px;
+    color: grey;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.show{
+    font-size: 13px;
+    color: grey;
+}
+.title{
+    border-bottom: rgba(214, 109, 135, 0.3) 3px solid;
+}
+.commentsName{
+    font-size: 15px;
+    color: indigo;
+    border-bottom: lightblue solid 2px;
+}
+.commentName{
+    font-size: 13px;
+    color: grey;  
+}
+.sidebar{
+    background-color: lightsalmon;
+    padding: 1.5rem;
+    box-shadow: 5px 5px rgba(182, 172, 172, 0.3);
+    border: rgba(124, 123, 112, 0.3) 2px solid;
+    border-radius: 1rem;
+    background-color: rgba(248, 237, 237, 0.7);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menua{
+    text-decoration: none;
+}
