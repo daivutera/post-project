@@ -24,8 +24,7 @@ userPersonalInfo.innerHTML=
 <li>Website: <a href="http://${user.website}" targer="_blank">${user.website}</a></li>
 <li>Work: ${user.company.name}</li>
 
-<iframe width="450" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/center?key=AIzaSyDbhFgrLdvpZJ2nCc9XvzdpVqONsBFlhhg&center=${user.address.geo.lat},${user.address.geo.lng}&zoom=5&maptype=satellite" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD2-DomVKJNSA45RUTMxCdhf_0e-P1D86c&q=${user.address.geo.lat},${user.address.geo.lng}" frameborder="0" width="800px" height="400px"></iframe>
+<iframe src="https://www.google.com/maps/embed/v1/place?key=MANOKEY&q=${user.address.geo.lat},${user.address.geo.lng}" frameborder="0" width="800px" height="400px"></iframe>
 
 <h2>All posts list of this author:</h2>`
 
